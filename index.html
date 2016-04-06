@@ -33,68 +33,6 @@
     <!-- Flickity JS -->
     <script type="text/javascript" src="jb/js/flickity.pkgd.min.js"></script>
 
-
-    <script>
-        $(document).ready(function () {
-            $('#fullpage').fullpage({
-                //Navigation
-                menu: '#menu',
-                lockAnchors: false,
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-                navigation: false,
-                navigationPosition: 'right',
-                navigationTooltips: ['firstSlide', 'secondSlide'],
-                showActiveTooltip: false,
-                slidesNavigation: true,
-                slidesNavPosition: 'bottom',
-
-                //Scrolling
-                css3: true,
-                scrollingSpeed: 900,
-                autoScrolling: false,
-                fitToSection: true,
-                fitToSectionDelay: 10,
-                scrollBar: false,
-                easing: 'easeInOutCubic',
-                easingcss3: 'ease',
-                loopBottom: false,
-                loopTop: false,
-                loopHorizontal: true,
-                continuousVertical: false,
-
-                scrollOverflow: false,
-                touchSensitivity: 15,
-                normalScrollElementTouchThreshold: 5,
-
-                //Accessibility
-                keyboardScrolling: true,
-                animateAnchor: true,
-                recordHistory: true,
-
-                //Design
-                controlArrows: true,
-                verticalCentered: true,
-                resize: false,
-                sectionsColor: ['transparent', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
-                responsiveWidth: 0,
-                responsiveHeight: 0,
-
-                //Custom selectors
-                sectionSelector: '.section',
-                slideSelector: '.slide',
-
-                //events
-                onLeave: function (index, nextIndex, direction) {},
-                afterLoad: function (anchorLink, index) {},
-                afterRender: function () {},
-                afterResize: function () {},
-                afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {},
-                onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {}
-            });
-        });
-    </script>
-
-
     <!-- Font Awesome -->
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
@@ -277,7 +215,6 @@
 
     <div id="fullpage" class="fullpage-wrapper">
         <div id="section0" class="section fp-section fp-table" data-anchor="firstPage">
-
             <!-- PAGE -->
             <div class="parallax-window intro-bg" data-natural-height="578" data-natural-width="1440" data-image-src="jb/images/blue-sm.png" data-parallax="scroll">
             </div>
