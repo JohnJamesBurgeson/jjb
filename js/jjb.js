@@ -197,7 +197,7 @@ element.addEventListener('click', function (e) {
 
 }));
 
-/*
+
 $(document).ready(function () {
     $('#fullpage').fullpage({
         //Navigation
@@ -215,7 +215,7 @@ $(document).ready(function () {
         css3: true,
         scrollingSpeed: 900,
         autoScrolling: false,
-        fitToSection: true,
+        fitToSection: false,
         fitToSectionDelay: 10,
         scrollBar: false,
         easing: 'easeInOutCubic',
@@ -255,7 +255,7 @@ $(document).ready(function () {
         onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {}
     });
 });
-*/
+
 
 
 $(document).ready(function () {

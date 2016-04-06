@@ -1264,6 +1264,11 @@ a.w-link:hover {
         min-height: 728px;
     }
     
+    #section0, #section1, #section2, #section3, #section4 {
+        background-size: cover;
+        height: 100vh;
+    }
+
     .blue {
         background-image: url(http://www.johnjamesburgeson.com/jb/images/blue.png);
         position: fixed;
