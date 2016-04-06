@@ -1,0 +1,1550 @@
+/* FULL SITE */
+
+.siteHeader {
+    
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.site {
+    max-width: 100%;
+}
+
+.siteFooter {
+    padding-top: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: brandon grotesque, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.mono {
+    font-family: "ReplicaMono", -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 0;
+}
+
+strong,
+b {
+    font-weight: 500;
+}
+
+nav,
+footer {
+    font-size: 0.9em;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 500 !important;
+    letter-spacing: -0.05em;
+    line-height: 1;
+    margin-left: -2px;
+}
+
+@media (min-width: 52em) {
+    h1 {
+        font-size: 5rem;
+        letter-spacing: -0.085em;
+        line-height: 1;
+        margin-left: -4px;
+    }
+}
+
+h1 span {
+    opacity: 0.5;
+}
+
+@media (max-width: 320px) {
+    h1.h0.h00-responsive {
+        font-size: 2.5rem !important;
+        line-height: 1;
+    }
+}
+
+h1.quote {
+    text-indent: -0.5em;
+}
+
+@media (min-width: 52em) {
+    .md-right {
+        text-align: right;
+    }
+}
+
+p.skip {
+    font-size: 0.9em;
+}
+
+@media (min-width: 321px) {
+    p.skip {
+        font-size: 1em;
+    }
+}
+
+.stripe::before {
+    background-color: rgba(234, 188, 77, 1);
+    content: " ";
+    display: block;
+    height: 5px;
+    position: absolute;
+    top: -0.25em;
+    width: 0.55em;
+}
+
+@media (min-width: 52em) {
+    .stripe-full {
+        position: relative;
+    }
+}
+
+@media (min-width: 52em) {
+    .stripe-full::before {
+        background-color: #333;
+        content: " ";
+        display: block;
+        height: 2px;
+        position: absolute;
+        top: -0.15em;
+        width: 1em;
+    }
+}
+
+html {
+    font-family: brandon grotesque;
+}
+
+body {
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+    font-family: brandon grotesque, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@media (min-width: 40em) {
+    body {
+        background: #fff;
+    }
+}
+
+a,
+a:visited,
+a:active,
+a.btn {
+    color: #0177c2;
+}
+
+a:hover {
+    color: #ea1924;
+    text-decoration: none;
+}
+
+header {
+    color: #ef3942;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 40em) {
+    footer {
+        text-align: left;
+    }
+}
+
+
+/* LANDING */
+
+.intro-wrapper {
+    margin: auto;
+    max-width: 60%;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.intro {
+    font-family: brandon grotesque;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -.001em;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 auto;
+    line-height: 1em;
+}
+
+.subhead {
+    position: relative;
+    font-family: brandon grotesque;
+    font-weight: 300;
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: #4e4e4e;
+    letter-spacing: -.001em;
+    text-align: center;
+    margin: auto;
+}
+
+.intro-sub {
+    font-family: brandon grotesque;
+    font-weight: 700;
+    color: #025384;
+    letter-spacing: .01em;
+    margin-top: 5px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+a.intro-sub {
+    
+    background-color: transparent;
+    color: #025384;
+    cursor: pointer;
+    border-bottom: 3px solid #025384;
+    transition: all 150ms ease 0s;
+    font-weight: 700;
+    letter-spacing: .01em;
+    margin-top: 5px;
+    line-height: 1.3em;
+}
+
+a.intro-sub:hover,
+a.intro-sub:focus {
+    color: #ef3942;
+    border-bottom: 3px solid #ef3942;
+}
+
+
+/* a.work, a.work:visited, a.work:active, a.btn {
+    color: #01588e;
+    border-bottom: 3px solid #01588e;
+}
+*/
+
+
+/* SIDE NAV */
+
+.nav-transform {
+    transform: rotateZ(-90deg) translateX(-50%);
+    transform-origin: 0 50% 0;
+    z-index: 500;
+}
+
+
+/* LEFT NAV */
+
+.nav-left {
+    position: fixed;
+    left: 50px;
+    top: 50%;
+    z-index: 1000;
+}
+
+.nav-left-modal {
+    position: fixed;
+    left: 50px;
+    top: 50%;
+    z-index: 4001;
+}
+
+.nav-left-wrapper {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+a.nav-about {
+    color: #ffffff;
+    font-family: brandon grotesque;
+    font-weight: 300;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 0px solid #ffffff;
+}
+
+a.nav-about:hover,
+a.nav-about:focus {
+    font-size: 1.3em;
+}
+
+/*
+a.nav-about:focus {
+    color: #ef3942
+} */
+
+/*
+a.nav-about, a.nav-about:visited, a.nav-about:active, a.btn {
+    color: #0177c1;
+}
+*/
+
+/* RIGHT  NAV */
+.nav-right {
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    z-index: 1000;
+}
+
+.nav-right-modal {
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    z-index: 1001;
+}
+
+.nav-transform-right {
+    transform: rotateZ(-90deg) translateX(50%);
+    transform-origin: 100% 50% 0;
+    z-index: 400;
+}
+.nav-right-wrapper {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+a.nav-email {
+    color: #ffffff;
+    font-family: brandon grotesque;
+    font-weight: 300;
+    font-size: 1.2rem;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 0;
+}
+
+a.nav-email:hover,
+a.nav-email:focus {
+    font-size: 1.3em;
+}
+
+/* DRAWER  NAV */
+.nav-button {
+    height: 63px;
+    overflow: hidden;
+    position: fixed;
+    right: 120px;
+    text-indent: 100%;
+    top: 70px;
+    transition: transform 0.5s ease 0s, background-color 150ms ease 0s, -webkit-transform 0.5s ease 0s;
+    white-space: nowrap;
+    width: 66px;
+    z-index: 5001;
+}
+@media (min-width: 48em) {
+    .nav-button {
+        right: 120px;
+        top: 70px;
+    }
+}
+.nav-button:focus {
+    outline: 0 none;
+}
+
+.nav-button:hover .nav-icon {
+    background-color: #d34a28;
+}
+.nav-button .nav-icon {
+    background-color: #ffffff;
+    bottom: auto;
+    height: 6px;
+    left: 50%;
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all 0.5s ease 0s;
+    width: 50px;
+}
+.nav-button .nav-icon:visited {
+    background-color: #ffffff;
+}
+
+
+.nav-button .nav-icon::before,
+.nav-button .nav-icon::after {
+    backface-visibility: hidden;
+    background-color: inherit;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateZ(0px);
+    transition: transform 0.5s ease 0s, width 0.5s ease 0s, top 0.3s ease 0s, -webkit-transform 0.5s ease 0s;
+    width: 100%;
+}
+.nav-button .nav-icon::before {
+    transform: translateY(-12px);
+}
+.nav-button .nav-icon::after {
+    transform: translateY(12px);
+}
+.nav {
+    bottom: 0;
+    font-family: "sofia-pro", sans-serif;
+    font-size: 0.8em;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: visibility 0s ease 0.7s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 5000;
+}
+.nav .logo {
+    display: inline-block;
+    height: 90px;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 100%;
+}
+.nav a {
+    color: #fc2a2a;
+    font-size: 2.5rem;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-family: brandon grotesque;
+    font-weight: 500;
+}
+.nav a.active,
+.nav a:hover,
+.nav a:focus {
+    color: white;
+}
+.nav a.active {
+    font-weight: bold;
+}
+.nav li {
+    list-style: outside none none;
+}
+.nav ul {
+    margin-bottom: 20px;
+    padding-left: 0;
+    margin-top: 70px;
+}
+/*
+.nav ul:last-of-type {
+    margin-bottom: 60px;
+} */
+.nav h2 {
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.nav .nav-wrapper {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/white.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: fill;
+    overflow-y: auto;
+    margin: 0;
+    padding: 60px 2em;
+    transform: translate(100%, 0px);
+    transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+    z-index: 2000;
+}
+.nav--open .nav {
+    transition: visibility 0s ease 0s;
+    visibility: visible;
+}
+.nav--open .nav .nav-wrapper {
+    transform: translateX(0px);
+    transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+}
+.nav--open .nav-button:focus .nav-icon,
+.nav--open .nav-button:hover .nav-icon {
+    background-color: transparent;
+}
+.nav--open .nav-icon {
+    background-color: transparent;
+}
+.nav--open .nav-icon::after,
+.nav--open .nav-icon::before {
+    background-color: #d34a28;
+    transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+}
+.nav--open .nav-icon::before {
+    transform: rotate(45deg);
+}
+.nav--open .nav-icon::after {
+    transform: rotate(-45deg);
+}
+
+.nav-wrapper nav ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 470px;
+    margin: auto;
+    width: 500px;
+} 
+
+li.nav-text {
+    list-style: outside none none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+li.nav-text a {
+    font-size: 5.7em;
+    font-weight: 700;
+    line-height: 1.7em;
+}
+
+li.nav-text a:hover {
+    font-size: 5.9em;
+    color: #fc2a2a;
+}
+
+.nav-wrapper nav ul .sub-nav {
+    position: relative;
+    height: auto;
+} 
+
+li.sub-nav-text {
+    list-style: outside none none;
+    padding: 3px 15px;
+    text-align: center;
+    width: 100%;
+}
+
+li.sub-nav-text a {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+li.sub-nav-text a:hover {
+    font-size: 2.2em;
+    color: #fc2a2a;
+}
+
+/* MAIN HEADER */
+.mainHeader {
+    font-family: "sofia-pro", sans-serif;
+    padding-top: 20px;
+    position: relative;
+}
+.mainHeader .logo {
+    float: left;
+    height: 60px;
+}
+@media (min-width: 48em) {
+    .mainHeader .logo {
+        height: 90px;
+    }
+}
+.mainHeader-intro {
+    margin-top: 64px;
+    text-align: center;
+}
+@media (min-width: 48em) {
+    .mainHeader-intro {
+        bottom: 10%;
+        margin-top: 0;
+        position: absolute;
+        text-align: right;
+    }
+}
+.mainHeader-intro h1 {
+    border-bottom: 0 none;
+    font-size: 1.6em;
+    font-weight: normal;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: inherit;
+    text-transform: none;
+}
+@media (min-width: 60em) {
+    .mainHeader-intro h1 {
+        font-size: 1.6em;
+    }
+}
+.mainHeader-intro h1::after {
+    content: none;
+}
+.mainHeader-intro p {
+    margin-bottom: 0;
+}
+.docs h1 {
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+@media (min-width: 60em) {
+    .docs h1 {
+        margin-bottom: 5px;
+    }
+}
+.docs h1::after {
+    content: none;
+}
+.docs h1 span:first-of-type {
+    color: #bbbbbb;
+    margin-right: 0.5em;
+}
+.docs h3 {
+    margin-top: 50px;
+}
+.docs h4 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.version {
+    color: #999;
+    margin-top: 8px;
+}
+.mainHeader-buttons {
+    margin-top: 64px;
+}
+.mainHeader-buttons span {
+    color: #999;
+    font-weight: bold;
+    margin-left: 0.5em;
+    vertical-align: baseline;
+}
+.mainHeader-ad {
+    color: #999;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+@media (min-width: 48em) {
+    .mainHeader-ad {
+        max-width: 315px;
+    }
+}
+@media (min-width: 60em) {
+    .mainHeader-ad {
+        bottom: 10%;
+        text-align: left;
+    }
+}
+@media (min-width: 48em) and (min-height: 30em) {
+    .mainHeader-ad {
+        bottom: 20px;
+        left: 1em;
+        margin-top: 0;
+        position: absolute;
+        right: 1em;
+    }
+}
+.mainHeader-ad strong {
+    color: #555;
+}
+
+/* ALL MODAL */
+.modal-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 500px;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    z-index: 3000;
+    box-shadow: none;
+}
+@media (min-width: 48em) {
+    .modal-container {
+        width: 100%;
+    }
+}
+@media (min-height: 30em) {
+    .modal-container {
+        margin: auto;
+    }
+}
+@media (min-height: 48em) {
+    .modal-container {
+        margin: auto;
+    }
+}
+.modal-header {
+    position: relative;
+    background-color: transparent;
+    color: white;
+    padding: 16px 20px 5px 20px;
+}
+.modal-header h1,
+.modal-header h2,
+.modal-header h3,
+.modal-header h4,
+.modal-header h5,
+.modal-header h6,
+.modal-header .h1,
+.modal-header .h2,
+.modal-header .h3,
+.modal-header .h4,
+.modal-header .h5,
+.modal-header .h6,
+.modal-header .giga,
+.modal-header .mega,
+.modal-header .kilo {
+    color: inherit;
+    display: inline;
+}
+.modal-body,
+.modal-footer {
+    background-color: transparent;
+    margin-top: 0;
+}
+.modal-body {
+    padding: 0px 2.5em;
+    position: relative;
+}
+.modal-footer {
+    font-size: 0.875em;
+    margin: 0;
+    padding: 24px 2.5em;
+}
+a.close {
+    font-family: brandon grotesque;
+    font-weight: 300;
+    font-size: 1.2rem;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    margin: 0;
+    color: #808080;
+    float: right;
+    margin: 0;
+    opacity: 1;
+    transition: opacity 150ms;
+}
+a.close:hover {
+    font-size: 1.3em;
+}
+a.close:hover,
+a.close:focus {
+    text-decoration: none;
+}
+.modal:target a.close--background {
+    display: block;
+    height: 100%;
+    pointer-events: all;
+    position: absolute;
+    width: 100%;
+}
+.modal:target a.close--background:hover {
+    border-bottom: none;
+    text-decoration: none;
+}
+@media (min-width: 48em) {
+    .modal--small .modal-container {
+        width: 360px;
+    }
+}
+@media (min-width: 48em) {
+    .modal--large .modal-container {
+        width: 760px;
+    }
+}
+@media (min-width: 48em) {
+    .modal--full .modal-container {
+        width: 100%;
+        height: 100vh;
+    }
+}
+.modal--flat .modal-header {
+    background-color: white;
+    color: #555;
+    padding: 1em 2.5em 0;
+}
+.modal--flat .modal-header h1,
+.modal--flat .modal-header h2,
+.modal--flat .modal-header h3,
+.modal--flat .modal-header h4,
+.modal--flat .modal-header h5,
+.modal--flat .modal-header h6,
+.modal--flat .modal-header .h1,
+.modal--flat .modal-header .h2,
+.modal--flat .modal-header .h3,
+.modal--flat .modal-header .h4,
+.modal--flat .modal-header .h5,
+.modal--flat .modal-header .h6 {
+    color: inherit;
+}
+.modal--flat .modal-close {
+    color: #555;
+    line-height: 1;
+    margin: 0;
+}
+
+/* ABOUT MODAL */
+.about-pic-wrapper {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    align-content: center;
+}
+.about-pic {
+    max-width: 100%;
+    border: 7px solid #797979;
+    border-radius: 50%;
+}
+.modal-about {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/white.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: fill;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: opacity ease-in 150ms;
+    z-index: 4000;
+}
+.modal-about:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.hello {
+    position: relative;
+    font-family: brandon grotesque;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #4e4e4e;
+    letter-spacing: -.001em;
+    text-align: center;
+    text-transform: capitalize;
+}
+a.subabout {
+    font-family: brandon grotesque;
+    font-weight: 500;
+    font-size: .9em;
+    color: #f25f52;
+    letter-spacing: .01em;
+    margin-top: 5px;
+    line-height: 1.3em;
+    background-color: transparent;
+    letter-spacing: .01em;
+    text-align: center;
+
+}
+a.subabout:hover {
+    color: #ef3942;
+    border-bottom: none;
+}
+
+.svg-icon path {
+    fill: #808080;
+}
+
+.linkedin {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    color: #808080;
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/iconmonstr-linkedin-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.facebook {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    color: #808080;
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/iconmonstr-facebook-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.behance {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    color: #808080;
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/iconmonstr-behance-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+.twitter {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    color: #808080;
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/iconmonstr-twitter-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* WORK SCROLL */
+
+.sec {
+    margin-bottom: 200px;
+}
+
+.work-sec {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: #fafafa;
+    z-index: 300;
+}
+.recent {
+    padding: 80px 0px;
+}
+
+.work-container {
+    width: 70%;
+    height: auto;
+    min-width: 200px;
+    min-height: 100px;
+    align-content: center;
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: auto;
+}
+
+.work-box {
+    position: relative;
+    height: auto;
+    max-height: 500px;
+    max-width: 100%;
+    align-content: center;
+    display: block;
+    background-color: #ffffff;
+}
+
+.blocbox-logo {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/BB-Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
+}
+
+.bb-green {
+    background-color: #79cccd;
+    max-width: 100%;
+    padding: 40px;
+    display: block;
+}
+
+.work-pic {
+    background-color: #ffffff;
+    max-width: 100%;
+    padding: 5px;
+    display: block;
+}
+
+/* carousel height */
+.gallery {
+    background: #ffffff;
+    cursor: grabbing;
+}
+
+.gallery img {
+    display: block;
+    background-size: fill;
+    width: 100%;
+    height: auto;
+    max-height: 430px;
+}
+
+
+
+/* cell inherit height from carousel */
+.carousel-cell {
+    height: 300px;
+    width: 100%:
+}
+
+.ss {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/host-ss.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+}
+
+
+.work-head {
+    font-family: brandon grotesque;
+    font-weight: 500;
+    font-size: 3.5em;
+    color: #1f2325;
+    letter-spacing: .01em;
+    margin: 0 auto;
+    line-height: 1.0em;
+    background-color: transparent;
+    letter-spacing: .01em;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.work-text {
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #47525d;
+    letter-spacing: .01em;
+    margin: 0 auto;
+    line-height: 1.3em;
+    background-color: transparent;
+    letter-spacing: .01em;
+    text-align: left;
+    padding: 5px;
+}
+.work-link {
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: left;
+    padding: 5px;
+}
+a.w-link {
+    font-weight: 500;
+    font-size: .9em;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    color: #677277;
+}
+
+a.w-link:hover {
+    color: #ef3942;
+    border-bottom: 3px solid #ef3942;
+}
+
+/* WORK MODAL */
+.modal-work {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/ltgrey.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: fill;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    overflow: scroll;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: opacity ease-in 150ms;
+    z-index: 550;
+}
+
+.name-badge {
+    position: fixed;
+    width: 250px;
+    height: 40px;
+    top: 100px;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -125px;
+    padding: 10px;
+    background-color: #0177c1;
+    text-align: center;
+}
+
+.modal-work:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.subwork {
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #677277;
+    letter-spacing: .01em;
+    margin: 0 auto;
+    line-height: 1.3em;
+    background-color: transparent;
+    letter-spacing: .01em;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px rgba( 150, 150, 150, 0.2);
+}
+
+.work-img-con {
+    min-height: 195px;
+    background-color: #ffffff;
+    opacity: 1;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    display: block;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.design {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/design.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 195px;
+    opacity: 1;
+}
+.consult {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/consult.png);
+    background-color: #f25f52;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 195px;
+    opacity: 1;
+}
+.work-text-con {
+    position: relative;
+    min-height: 175px;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+
+
+/* WORK SCROLL */
+.white {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/white.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: fill;
+    box-sizing: border-box;
+    z-index: 551;
+}
+
+/* DESIGN */
+.page-wrapper {
+    margin: 50px auto 0px auto;
+}
+.page-header {
+    font-family: brandon grotesque;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: -.001em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.page-banner {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/yellow.png);
+    background-repeat: no-repeat;
+    height: 175px;
+    background-position: center;
+    background-size: fill;
+}
+.c-container {
+    overflow-x: scroll;
+    max-height: 500px;
+    background-color: transparent;
+}
+.card {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+}
+.card:hover {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -webkit-transition: box-shadow 2s;
+    transition: box-shadow 2s;
+}
+.card-title {
+    color: #677277;
+    border-bottom: 1px solid #677277;
+    font-size: 1.0em;
+    font-weight: 500;
+}
+.card-text {
+    color: #677277;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding-top: 3px;
+}
+.bb-card {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/host-ss.png);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
+    margin: 0;
+    height: 195px;
+    width: 100%;
+    display: block;
+}
+.forum-card {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/forum-book.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: 0;
+    height: 195px;
+    width: 100%;
+    display: block;
+}
+.mot-card {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/MoT-cards.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: 0;
+    height: 195px;
+    width: 100%;
+    display: block;
+}
+.ypfp-card {
+    background-image: url(http://www.johnjamesburgeson.com/jb/images/ypfp.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: bottom
+    margin: 0;
+    height: 195px;
+    width: 100%;
+    display: block;
+    border: 10px solid #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* MISC */
+.full {
+    box-sizing: border-box;
+}
+@media (min-width: 40em) {
+    .parallax-window {
+        background: transparent none repeat scroll 0 0;
+        min-height: 400px;
+    }
+    
+    .intro-bg {
+        min-height: 728px;
+    }
+    
+    .blue {
+        background-image: url(http://www.johnjamesburgeson.com/jb/images/blue.png);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        min-height: 88vh;
+        background-position: center;
+        background-size: fill;
+        z-index: 200;
+    }
+}
+@media (min-width: 40em) {
+    .full-content {
+        min-height: 80vh;
+    }
+}
+@media (min-width: 40em) {
+    .outline {
+        border-top: 40px solid #fafafa;
+        border-right: 80px solid #fafafa;
+        border-bottom: 40px solid #fafafa;
+        border-left: 80px solid #fafafa;
+        box-sizing: border-box;
+        z-index: 300;
+    }
+}
+.nav-change {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.nav-change2 {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1; 
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.fade-in.delay {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.half {
+    background-color: #fff;
+}
+.hero {
+    border: 1rem solid #fff;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+@media (min-width: 40em) {
+    .hero {
+        border: medium none;
+    }
+}
+.background {
+    background-color: #fff;
+}
+.cover {
+    background-color: #fff;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+@media (min-width: 40em) {
+    .cover {
+        background-position: center top;
+    }
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 40em) {
+    .content {
+        max-width: 25em;
+    }
+}
+.content svg {
+    width: 100%;
+}
+.tagline {
+    margin-top: 1em;
+    text-align: center;
+}
+@media (min-width: 40em) {
+    .tagline {
+        margin-top: 4em;
+    }
+}
+.content svg.icon {
+    clear: both;
+    height: 36px;
+    width: 36px;
+}
+.content svg.icon.large {
+    clear: both;
+    height: 150px;
+    width: 150px;
+}
+.content svg.logotype {
+    clear: both;
+    height: auto;
+    width: 100px;
+}
+.content div.logotype-city {
+    line-height: 1;
+}
+.content svg.logotype-city {
+    clear: both;
+    height: auto;
+    width: 50px;
+}
+.img {
+    clear: both;
+    line-height: 1;
+    vertical-align: bottom;
+}
+.img img {
+    clear: both;
+    display: block;
+    float: left;
+    height: auto;
+    vertical-align: bottom;
+}
+.secondary,
+footer {
+    color: rgba(0, 0, 0, 0.35);
+}
+.collapsed {
+    display: none;
+}
+.red {
+    color: #ef3942;
+}
+.border-right,
+.border-left,
+.border-top,
+.border-bottom,
+.border {
+    border-color: #ccc;
+}
+.border-top {
+    border-top-color: #ccc;
+}
+.instruction {
+    background-color: #dcaf82;
+    background-image: url("https://static.andofood.com/graphics/paper.jpg");
+    background-size: 100% auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.footer {
+    background-color: #f2e9e0;
+}
+.contrast {
+    background-color: #ef3942;
+    color: #fff;
+}
+.contrast .secondary,
+.contrast footer {
+    color: rgba(255, 255, 255, 0.5);
+}
+.contrast a,
+.contrast a:visited,
+.contrast a:active {
+    color: #ef3942;
+}
+.contrast a.btn {
+    color: #fff;
+}
+.contrast a:hover {
+    color: #9edd00;
+    text-decoration: none;
+}
+.contrast h1 {
+    color: #fff;
+}
+.btn,
+a.btn {
+    background-color: #000;
+    border-color: #000;
+    border-radius: 5px;
+    box-shadow: none !important;
+    color: #fff;
+}
+.btn span,
+a.btn span {
+    color: #ef3942;
+}
+.btn:hover,
+a.btn:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+.btn:active,
+.btn:focus {
+    opacity: 0.75;
+}
+.btn[disabled="disabled"] {
+    background: #ccc none repeat scroll 0 0;
+    border-color: #ccc;
+}
+label {
+    color: rgba(0, 0, 0, 0.35);
+}
+.field {
+    background-color: transparent;
+    border-color: #ccc;
+    border-left: medium none #ccc;
+    border-radius: 0;
+    border-right: medium none #ccc;
+    border-top: medium none #ccc;
+    box-shadow: none !important;
+    color: #333;
+    outline: medium none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+}
+input:-moz-placeholder {
+    color: #999;
+}
+input::-moz-placeholder {
+    color: #999;
+}
+.field:active,
+.field:focus {
+    border-color: #ef3942;
+}
+.join {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 40em) {
+    .join {
+        max-width: 25em;
+    }
+}
+.join input.btn {
+    width: 100%;
+}
+textarea {
+    resize: none;
+    width: 100%;
+}
+.submit {
+    color: #ef3942;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
