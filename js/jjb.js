@@ -197,6 +197,7 @@ element.addEventListener('click', function (e) {
 
 }));
 
+/*
 $(document).ready(function () {
     $('#fullpage').fullpage({
         //Navigation
@@ -254,7 +255,7 @@ $(document).ready(function () {
         onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {}
     });
 });
-
+*/
 
 
 $(document).ready(function () {
