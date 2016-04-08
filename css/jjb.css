@@ -1,6 +1,6 @@
 /* FULL SITE */
 html {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
 }
 
 
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: brandon grotesque, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: brandon-grotesque, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 
@@ -125,7 +125,7 @@ p.skip {
 }
 
 html {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
 }
 
 body {
@@ -134,7 +134,7 @@ body {
     margin: 0;
     width: 100%;
     color: #fff;
-    font-family: brandon grotesque, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: brandon-grotesque, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 @media (min-width: 40em) {
@@ -184,7 +184,7 @@ footer {
 }
 
 .intro {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-size: 5rem;
     font-weight: 700;
     color: #fff;
@@ -195,15 +195,28 @@ footer {
     line-height: 1em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
     .intro {
-        font-size: 2em;
+        font-size: 2.6em;
     }
 }
 
+@media (min-width: 321px) {
+    .intro {
+        font-size: 3.0em;
+    }
+}
+
+@media (min-width: 769px) {
+    .intro {
+        font-size: 5rem;
+    }
+}
+
+
 .subhead {
     position: relative;
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 300;
     position: relative;
     font-size: 1.5em;
@@ -215,7 +228,7 @@ footer {
 }
 
 .intro-sub {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 700;
     color: #025384;
     letter-spacing: .01em;
@@ -284,7 +297,7 @@ a.intro-sub:focus {
 
 a.nav-about {
     color: #ffffff;
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 300;
     font-size: 1.2rem;
     white-space: nowrap;
@@ -338,7 +351,7 @@ a.nav-about, a.nav-about:visited, a.nav-about:active, a.btn {
 }
 a.nav-email {
     color: #ffffff;
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 300;
     font-size: 1.2rem;
     cursor: pointer;
@@ -445,7 +458,7 @@ a.nav-email:focus {
     font-size: 2.5rem;
     letter-spacing: 0.75px;
     text-transform: uppercase;
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 500;
 }
 .nav a.active,
@@ -753,7 +766,7 @@ li.sub-nav-text a:hover {
     padding: 24px 2.5em;
 }
 a.close {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 300;
     font-size: 1.2rem;
     cursor: pointer;
@@ -862,7 +875,7 @@ a.close:focus {
 }
 .hello {
     position: relative;
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-size: 5rem;
     font-weight: 500;
     color: #4e4e4e;
@@ -871,7 +884,7 @@ a.close:focus {
     text-transform: capitalize;
 }
 a.subabout {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 500;
     font-size: .9em;
     color: #f25f52;
@@ -963,6 +976,12 @@ a.subabout:hover {
     margin: auto;
 }
 
+@media (max-width: 799px) {
+    .work-container {
+        width: 100%;
+    }
+}
+
 .work-box {
     position: relative;
     height: auto;
@@ -1028,7 +1047,7 @@ a.subabout:hover {
 
 
 .work-head {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-weight: 500;
     font-size: 3.5em;
     color: #1f2325;
@@ -1181,7 +1200,7 @@ a.w-link:hover {
     margin: 50px auto 0px auto;
 }
 .page-header {
-    font-family: brandon grotesque;
+    font-family: brandon-grotesque;
     font-size: 5rem;
     font-weight: 400;
     margin: 0 auto;
