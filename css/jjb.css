@@ -236,6 +236,7 @@ footer {
     margin-top: 5px;
     line-height: 1.3em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 a.intro-sub {
