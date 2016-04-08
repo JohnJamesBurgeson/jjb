@@ -220,7 +220,7 @@ $(document).ready(function () {
         scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
-        loopBottom: true,
+        loopBottom: false,
         loopTop: false,
         loopHorizontal: true,
         continuousVertical: false,
