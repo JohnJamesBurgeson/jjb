@@ -68,6 +68,12 @@ h1 span {
         font-size: 2.5rem !important;
         line-height: 1;
     }
+    .nav-right {
+        visibility: hidden;
+    }
+    .nav-left {
+        visibility: hidden;
+    }
 }
 
 h1.quote {
