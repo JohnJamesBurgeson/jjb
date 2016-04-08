@@ -382,12 +382,18 @@ a.nav-email:focus {
         right: 120px;
         top: 70px;
     }
+    .nav-button .nav-icon {
+        width: 30px;
+
+    }
 }
 
 @media (max-width: 480px) {
     .nav-button {
         right: 20px;
         top: 30px;
+        width: 46;
+        height: 43;
     }
 }
 .nav-button:focus {
@@ -435,7 +441,6 @@ a.nav-email:focus {
 }
 .nav {
     bottom: 0;
-    font-family: "sofia-pro", sans-serif;
     font-size: 0.8em;
     height: 100%;
     position: fixed;
