@@ -188,11 +188,15 @@ footer {
     font-size: 5rem;
     font-weight: 700;
     color: #fff;
-    letter-spacing: -.001em;
+    letter-spacing: -.002em;
     text-align: center;
     text-transform: capitalize;
     margin: 0 auto;
     line-height: 1em;
+}
+
+.wd {
+    letter-spacing: .108em;
 }
 
 @media (max-width: 320px) {
@@ -232,7 +236,7 @@ footer {
     font-weight: 400;
     font-size: 1.5em;
     color: #025384;
-    letter-spacing: .01em;
+    letter-spacing: .03em;
     margin-top: 5px;
     line-height: 1.3em;
     text-align: center;
