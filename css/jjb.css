@@ -217,7 +217,6 @@ footer {
     }
 }
 
-
 .subhead {
     position: relative;
     font-family: ff-tisa-web-pro;
@@ -237,10 +236,9 @@ footer {
     font-size: 1.5em;
     color: #025384;
     letter-spacing: .03em;
-    margin-top: 5px;
+    margin-top: 10px;
     line-height: 1.3em;
     text-align: center;
-    text-transform: capitalize;
 }
 
 a.intro-sub {
