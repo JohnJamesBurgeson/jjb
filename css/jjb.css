@@ -195,6 +195,12 @@ footer {
     line-height: 1em;
 }
 
+@media (max-width: 480px) {
+    .intro {
+        font-size: 2em;
+    }
+}
+
 .subhead {
     position: relative;
     font-family: brandon grotesque;
@@ -1271,11 +1277,11 @@ a.w-link:hover {
 @media (min-width: 40em) {
     .parallax-window {
         background: transparent none repeat scroll 0 0;
-        min-height: 400px;
+        min-height: 460px;
     }
     
     .intro-bg {
-        min-height: 728px;
+        height: 100vh;
     }
     
     #section0, #section1, #section2, #section3, #section4 {
@@ -1292,7 +1298,6 @@ a.w-link:hover {
         bottom: 0;
         width: 100%;
         background-repeat: no-repeat;
-        min-height: 88vh;
         background-position: center;
         background-size: fill;
         z-index: 200;
@@ -1313,6 +1318,16 @@ a.w-link:hover {
         z-index: 300;
     }
 }
+
+.parallax-window {
+    background: transparent none repeat scroll 0 0;
+    min-height: 460px;
+}
+
+.intro-bg {
+    height: 100vh;
+}
+
 .nav-change {
     position: absolute;
     bottom: 0;
