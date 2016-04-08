@@ -1,4 +1,9 @@
 /* FULL SITE */
+html {
+    font-family: brandon grotesque;
+}
+
+
 
 .siteHeader {
     
@@ -25,10 +30,6 @@ h6 {
     font-family: brandon grotesque, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.mono {
-    font-family: "ReplicaMono", -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, sans-serif;
-    letter-spacing: 0;
-}
 
 strong,
 b {
