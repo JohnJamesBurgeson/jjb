@@ -63,7 +63,7 @@ h1 span {
     opacity: 0.5;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     h1.h0.h00-responsive {
         font-size: 2.5rem !important;
         line-height: 1;
@@ -362,6 +362,13 @@ a.nav-email:focus {
     .nav-button {
         right: 120px;
         top: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-button {
+        right: 20px;
+        top: 30px;
     }
 }
 .nav-button:focus {
