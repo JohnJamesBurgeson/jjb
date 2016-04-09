@@ -226,14 +226,14 @@ footer {
     line-height: 1.3em;
     color: #4e4e4e;
     letter-spacing: -.001em;
-    text-align: center;
+    text-align: left;
     margin: auto;
 }
 
 .intro-sub {
     font-family: brandon-grotesque;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #025384;
     letter-spacing: .03em;
     line-height: 1.3em;
@@ -257,6 +257,28 @@ a.intro-sub:hover,
 a.intro-sub:focus {
     color: #ef3942;
     border-bottom: 3px solid #ef3942;
+}
+
+.recent {
+    position: absolute;
+    bottom: 100;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a.nav-work {
+    color: #ffffff;
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -300,20 +322,20 @@ a.intro-sub:focus {
 
 a.nav-about {
     color: #ffffff;
-    font-family: brandon-grotesque;
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
     white-space: nowrap;
     margin: 0;
     background-color: transparent;
     cursor: pointer;
     text-decoration: none;
-    border-bottom: 0px solid #ffffff;
 }
 
 a.nav-about:hover,
 a.nav-about:focus {
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 
 /*
@@ -354,9 +376,10 @@ a.nav-about, a.nav-about:visited, a.nav-about:active, a.btn {
 }
 a.nav-email {
     color: #ffffff;
-    font-family: brandon-grotesque;
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
     cursor: pointer;
     white-space: nowrap;
     margin: 0;
@@ -774,9 +797,10 @@ li.sub-nav-text a:hover {
     padding: 24px 2.5em;
 }
 a.close {
-    font-family: brandon-grotesque;
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-family: ff-tisa-web-pro;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
     cursor: pointer;
     white-space: nowrap;
     text-decoration: none;
@@ -788,7 +812,7 @@ a.close {
     transition: opacity 150ms;
 }
 a.close:hover {
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 a.close:hover,
 a.close:focus {
@@ -1065,10 +1089,11 @@ a.subabout:hover {
     background-color: transparent;
     letter-spacing: .01em;
     text-align: left;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 .work-text {
+    font-family: ff-tisa-web-pro;
     font-weight: 400;
     font-size: 1.5em;
     color: #47525d;
