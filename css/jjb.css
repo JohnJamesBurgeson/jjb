@@ -233,7 +233,7 @@ footer {
 .intro-sub {
     font-family: brandon-grotesque;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.15em;
     color: #025384;
     letter-spacing: .03em;
     line-height: 1.3em;
@@ -326,6 +326,7 @@ a.nav-about {
     font-weight: 400;
     font-style: italic;
     font-size: 0.9rem;
+    letter-spacing: .05em;
     white-space: nowrap;
     margin: 0;
     background-color: transparent;
@@ -380,6 +381,7 @@ a.nav-email {
     font-weight: 400;
     font-style: italic;
     font-size: 0.9rem;
+    letter-spacing: .05em;
     cursor: pointer;
     white-space: nowrap;
     margin: 0;
@@ -387,7 +389,7 @@ a.nav-email {
 
 a.nav-email:hover,
 a.nav-email:focus {
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 
 /* DRAWER  NAV */
@@ -488,7 +490,6 @@ a.nav-email:focus {
     color: #fc2a2a;
     font-size: 2.5rem;
     letter-spacing: 0.75px;
-    text-transform: uppercase;
     font-family: brandon-grotesque;
     font-weight: 500;
 }
@@ -581,6 +582,7 @@ li.nav-text a {
     font-size: 5.7em;
     font-weight: 700;
     line-height: 1.7em;
+    text-transform: uppercase;
 }
 
 li.nav-text a:hover {
@@ -601,9 +603,12 @@ li.sub-nav-text {
 }
 
 li.sub-nav-text a {
+    font-family: ff-tisa-web-pro;
+    font-style: italic;
     font-size: 2em;
     font-weight: 500;
     line-height: 1.5em;
+    text-transform: none;
 }
 
 li.sub-nav-text a:hover {
