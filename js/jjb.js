@@ -203,7 +203,7 @@ $(document).ready(function () {
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        anchors: ['Landing', 'blocbox', 'MoT', 'Fletcher', 'lastPage'],
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],
