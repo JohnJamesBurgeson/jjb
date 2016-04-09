@@ -1,4 +1,4 @@
-var element = document.getElementById('nav-button');
+ var element = document.getElementById('nav-button');
 var body = document.body;
 var className = 'nav--open';
 
@@ -302,7 +302,7 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
+/* $(document).ready(function () {
     var scroll_start = 0;
     var startchange = $('#startchange2');
     var offset = startchange.offset();
@@ -314,7 +314,7 @@ $(document).ready(function () {
             $('a.nav-email:hover').css('border-bottom', '3px solid #ffffff');
         }
     });
-});
+}); */
 
 
 ! function t(e, i, n) {
@@ -606,13 +606,14 @@ $(document).ready(function () {
 
         function e(t, e) {
             t = $(t), t.click(function () {
-                t.addClass("animated " + e), window.setTimeout(function () {
-                    t.removeClass("animated " + e)
+                t.addClass("animated" + e), window.setTimeout(function () {
+                    t.removeClass("animated" + e)
                 }, 2e3)
             })
         }
         t("#member", "rotateIn"), e("#menu-ani", "flipInX"), e("#menu-ani-close", "zoomOut")
-    }), $(function () {
+    }),
+    $(function () {
         $("a[href*=#]:not([href=#])").click(function () {
             if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
                 var t = $(this.hash);
