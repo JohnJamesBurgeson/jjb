@@ -240,6 +240,12 @@ footer {
     text-align: center;
 }
 
+@media (max-width: 799px) {
+    .intro-sub {
+        font-size: 1.45em;
+    }
+}
+
 a.intro-sub {
     
     background-color: transparent;
@@ -880,6 +886,13 @@ a.close:focus {
     border-bottom: none;
     text-decoration: none;
 }
+
+@media (max-width: 799px) {
+    a.close {
+        visibility: hidden;
+    }
+}
+
 @media (min-width: 48em) {
     .modal--small .modal-container {
         width: 360px;
