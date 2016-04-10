@@ -571,6 +571,12 @@ a.nav-email:focus {
     width: 100%;
 } 
 
+@media (max-width: 770px) {
+    .nav-wrapper nav ul {
+        height: 300px;
+    }
+}
+
 li.nav-text {
     list-style: outside none none;
     padding: 0;
@@ -578,18 +584,6 @@ li.nav-text {
     width: 100%;
 }
 
-/*
-li.nav-text a {
-    font-size: 5.7em;
-    font-weight: 700;
-    line-height: 1.7em;
-    text-transform: uppercase;
-}
-
-li.nav-text a:hover {
-    font-size: 5.9em;
-    color: #fc2a2a;
-} */
 
 @media (max-width: 320px) {
     li.nav-text a {
@@ -632,6 +626,7 @@ li.nav-text a:hover {
         color: #fc2a2a;
     }
 }
+
 
 .nav-wrapper nav ul .sub-nav {
     position: relative;
@@ -790,6 +785,14 @@ li.sub-nav-text a:hover {
     overflow: hidden;
     z-index: 3000;
     box-shadow: none;
+}
+
+@media (max-width: 770px) {
+    .modal-container {
+       padding-top: 100px;
+        height: 500px;
+        overflow: scroll;
+    }
 }
 @media (min-width: 48em) {
     .modal-container {
