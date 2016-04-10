@@ -568,7 +568,7 @@ a.nav-email:focus {
     left: 0;
     height: 470px;
     margin: auto;
-    width: 500px;
+    width: 100%;
 } 
 
 li.nav-text {
@@ -578,6 +578,7 @@ li.nav-text {
     width: 100%;
 }
 
+/*
 li.nav-text a {
     font-size: 5.7em;
     font-weight: 700;
@@ -588,6 +589,48 @@ li.nav-text a {
 li.nav-text a:hover {
     font-size: 5.9em;
     color: #fc2a2a;
+} */
+
+@media (max-width: 320px) {
+    li.nav-text a {
+        font-size: 2.9em;
+        font-weight: 700;
+        line-height: 1.7em;
+        text-transform: uppercase;
+    }
+
+    li.nav-text a:hover {
+        font-size: 3.0em;
+        color: #fc2a2a;
+    }
+}
+
+@media (min-width: 321px) {
+    li.nav-text a {
+        font-size: 3.5em;
+        font-weight: 700;
+        line-height: 1.7em;
+        text-transform: uppercase;
+    }
+
+    li.nav-text a:hover {
+        font-size: 3.6em;
+        color: #fc2a2a;
+    }
+}
+
+@media (min-width: 769px) {
+    li.nav-text a {
+        font-size: 5.7em;
+        font-weight: 700;
+        line-height: 1.7em;
+        text-transform: uppercase;
+    }
+
+    li.nav-text a:hover {
+        font-size: 5.9em;
+        color: #fc2a2a;
+    }
 }
 
 .nav-wrapper nav ul .sub-nav {
