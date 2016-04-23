@@ -10,28 +10,28 @@
 
     <title>John James Burgeson</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="jb/css/concise.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/concise.min.css" />
     <!-- JB css -->
-    <link rel=stylesheet type="text/css" href="jb/css/jjb.css" />
+    <link rel=stylesheet type="text/css" href="css/jjb.css" />
     <!-- Full Page css -->
-    <link rel="stylesheet" type="text/css" href="jb/css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <!-- Flickity css -->
-    <link rel="stylesheet" type="text/css" href="jb/css/flickity.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/flickity.css" media="screen" />
 
     <!-- JJB JS -->
-    <script type="text/javascript" src="jb/js/jjb.js"></script>
+    <script type="text/javascript" src="js/jjb.js"></script>
     <!-- JQUERY JS -->
-    <script type="text/javascript" src="jb/js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- PARALLAX JS -->
-    <script type="text/javascript" src="jb/js/parallax.min.js"></script>
+    <script type="text/javascript" src="js/parallax.min.js"></script>
     <!-- JQUERY JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Fullpage JS -->
-    <script type="text/javascript" src="jb/js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <script src="jb/vendors/jquery.easing.1.3.js"></script>
     <!-- Flickity JS -->
-    <script type="text/javascript" src="jb/js/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
 
     <!-- Font Awesome -->
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
@@ -56,7 +56,7 @@
                 //Navigation
                 menu: '#menu',
                 lockAnchors: false,
-                anchors: ['Landing', 'blocbox', 'MoT', 'Fletcher', 'lastPage'],
+                anchors: ['Intro', 'MyRole', 'TheChallenge', 'TheVision', 'Execution', 'WIL'],
                 navigation: false,
                 navigationPosition: 'right',
                 navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -91,7 +91,7 @@
                 controlArrows: true,
                 verticalCentered: true,
                 resize: false,
-                sectionsColor: ['transparent', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+                sectionsColor: ['#FFC107', 'transparent', '#ffffff', '#ffffff', '#ffffff'],
                 responsiveWidth: 0,
                 responsiveHeight: 0,
 
@@ -110,6 +110,7 @@
         });
     </script>
 
+
     <!-- Meta Tags - Describe the Site -->
     <meta name="Description" CONTENT="John James Burgeson, JJB, John James, Burgeson, Burgeson design, graphic design, web design">
 </head>
@@ -125,6 +126,13 @@
                 </div>
             </div>
         </div>
+        <!-- <div class="nav-right-modal"> -->
+        <!-- <div class="nav-transform-right">
+<div class="nav-right-wrapper">
+<p class="nav-email"> hello@johnjamesburgeson.com </p>
+</div>
+</div> 
+</div> -->
         <div class="modal-container">
             <div class="modal-header hello">
                 Hello,
@@ -178,7 +186,7 @@
     <div class="nav-left">
         <div class="nav-transform">
             <div class="nav-left-wrapper fade-in delay">
-                <a class="nav-about" href="#modal-about"> about </a>
+                <a class="nav-about" href="#modal-about"> about john </a>
             </div>
         </div>
     </div>
@@ -192,8 +200,8 @@
 
     <!-- NAV MENU -->
     <a id="nav-button" class="nav-button fade-in delay" href="#">Menu
-        <span class="nav-icon"></span>
-    </a>
+            <span class="nav-icon"></span>
+        </a>
     <div id="menu" class="nav">
         <div class="nav-wrapper">
             <nav>
@@ -211,8 +219,8 @@
                                 <a href="/#section3" id="nav4" class="nav4">Fletcher</a>
                             </li>
                             <!-- <li class="sub-nav-text">
-                                <a href="#section4">Consulting</a>
-                            </li> -->
+<a href="#section4">Consulting</a>
+</li> -->
                         </ul>
                     </li>
                     <li class="nav-text">
@@ -228,60 +236,56 @@
     </div>
 
     <div id="fullpage" class="fullpage-wrapper">
-        <div id="section0" class="section fp-section fp-table" data-anchor="Landing">
+        <div id="section0" class="section fp-section fp-table" style="" data-anchor="Intro">
             <!-- PAGE -->
-            <div class="parallax-window intro-bg" data-natural-height="578" data-natural-width="1440" data-image-src="jb/images/blue-sm.png" data-parallax="scroll">
-            </div>
             <div class="intro-wrapper">
                 <div row>
-                    <p class="intro" style="margin: 0;">JOHN JAMES</p>
-                    <p class="intro wd">BURGESON</p>
-                </div>
-                <div row>
-                    <div column="10 +1">
-                        <p class="intro-sub" style="margin: 10px 0px 0px 0px;">WEB & INFORMATION DESIGNER PASSIONATE ABOUT</p>
-                        <p class="intro-sub">THE INTERSECTION OF DATA, POLICY AND FORM</p>
+                    <div column="5 +1">
+                        <p class="intro" style="margin: 0;">blocbox</p>
+                        <p class="intro-sub" style="margin: 10px 0px 0px 0px;">Launched in 2015 Blocbox sought to end missed deliveries.</p>
                     </div>
+                    <div column="3 +2">
+                       <div row>
+                           <a href="">MY ROLE</a>
+                       </div>
+                        <div row>
+                            <a href="">THE CHALLENGE</a>
+                        </div>
+                        <div row>
+                            <a href="">THE VISION</a>
+                        </div>
+                        <div row>
+                            <a href="">EXECUTION</a>
+                        </div>
+                        <div row>
+                            <a href="">WHAT I LEARNED</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div id="startchange" class="nav-change"></div>
             <div id="startchange2" class="nav-change2"></div>
+        
+
         </div>
         <div id="section1" class="section fp-section fp-table" data-anchor="blocbox">
-
-            <!-- <div id="startchange2" class="nav-change2"></div> -->
-            <div class="work-container">
-                <div row class="work-box" style="margin:0;">
-                    <div column="5">
-                        <p class="work-head" style="margin: 0;">blocbox</p>
-                        <p class="work-text" style="margin: 0;"> Designing and launching a service to prevent missed deliveries.</p>
-                        <div class="work-link" style="padding-top: 20px;">
-                            <a class="subabout" href="http://www.blocbox.co" target="_blank">SEE MORE AT BLOCBOX.CO</a>
-                        </div>
-                    </div>
-                    <div column="7">
-                        <div class="gallery js-flickity" data-flickity-options='{ "contain": true, "imagesLoaded": true, "lazyLoad": true, "wrapAround": true, "autoPlay": 4000 }'>
-                            <img data-flickity-lazyload="jb/images/bb-logo-s.png" alt="">
-                            <img data-flickity-lazyload="jb/images/host-ss.png" alt="">
-                            <img data-flickity-lazyload="jb/images/landing-ss.png" alt="">
-                            <img data-flickity-lazyload="jb/images/calendar-ss.png" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="parallax-window bb-bg" data-natural-height="578" data-natural-width="1440" data-image-src="images/BBbw-sm.png" data-parallax="scroll">
             </div>
+            <!-- <div class="BBbw">
+                <img src="images/BB-Logo-sm.png" alt="" class="media--fluid">
+            </div> -->
         </div>
-        <div id="section2" class="section fp-section fp-table" data-anchor="MoT">
+        <div id="section2" class="section fp-section fp-table" data-anchor="MyRole">
             <div class="work-container">
                 <div row class="work-box" style="margin:0;">
                     <div column="5">
-                        <p class="work-head" style="margin: 0;">Marrakech-On-Thames</p>
-                        <p class="work-text" style="margin: 0;"> Designing an identity for a London-based food & travel site</p>
-                        <div class="work-link">
-                            <!-- <a class="w-link" href="">Learn More</a> -->
-                        </div>
+                        <p class="work-head" style="margin: 0;">My Role</p>
+                        <p class="work-text" style="margin: 0;">Along with Jessica Yeats, I founded Blocbox in December 2014. I led the design of the service’s web application, crafted the comapny’s identity and mangaged the services growth from concept to beta launch in 2015.</p>
+                        <p class="work-text" style="margin: 0;">Up until January 2016, I led efforts to evolve the service, grow the user base and further develop the product.</p>
                     </div>
                     <div column="7" class="work-pic">
-                        <img src="jb/images/MoT-cards.png" alt="" class="media--fluid">
+                        <img src="images/MoT-cards.png" alt="" class="media--fluid">
                     </div>
                 </div>
             </div>
@@ -297,27 +301,12 @@
                         </div>
                     </div>
                     <div column="6" class="work-pic">
-                        <img src="jb/images/forum-book.png" alt="" class="media--fluid">
+                        <img src="images/forum-book.png" alt="" class="media--fluid">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div id="section4" class="section fp-section fp-table" style="height: 100vh;" data-anchor="lastpage">
-            <div class="work-container">
-                <div row class="work-box" style="margin:0;">
-                    <div column="5">
-                        <p class="work-head" style="margin: 0;">CONSULTING</p>
-                        <p class="work-text" style="margin: 0;"> Redesigning a cover for a long-running acedemic journal</p>
-                        <div class="work-link">
-                            <a class="w-link" href="">Learn More</a>
-                        </div>
-                    </div>
-                    <div column="6 +1" class="work-pic">
-                        <img src="jb/images/forum-book.png" alt="" class="media--fluid">
-                    </div>
-                </div>
-            </div>
-        </div> -->
+
         <footer class="siteFooter" container></footer>
     </div>
 

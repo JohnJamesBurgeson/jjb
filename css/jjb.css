@@ -1135,6 +1135,21 @@ a.subabout:hover {
     display: block;
 }
 
+.BBbw {
+    position: absolute;
+    margin: auto;
+    height: 250px;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
 /* carousel height */
 .gallery {
     background: #ffffff;
@@ -1422,12 +1437,14 @@ a.w-link:hover {
     
     .intro-bg {
         height: 100vh;
+        background-size: cover;
     }
     
-    #section0, #section1, #section2, #section3, #section4 {
+    .bb-bg {
+        height: 80vh;
         background-size: cover;
-        height: 100vh;
     }
+
 
     .blue {
         background-image: url(http://www.johnjamesburgeson.com/jb/images/blue.png);
@@ -1466,6 +1483,11 @@ a.w-link:hover {
 
 .intro-bg {
     height: 100vh;
+}
+
+.bb-bg {
+    height: 80vh;
+    background-size: cover;
 }
 
 .nav-change {
